@@ -1,7 +1,7 @@
 class ListOfData {
   ListOfData({this.id, this.prise, this.name, this.img});
-  final int id, prise;
-  final String name, img;
+  final int? id, prise;
+  final String? name, img;
 }
 
 List<ListOfData> listdata = [
